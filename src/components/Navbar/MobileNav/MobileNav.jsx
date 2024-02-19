@@ -9,7 +9,7 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
         onClick={toggleMenu}
       >
         <div className="mobile-menu-container">
-          <div className="logo">
+          <div className="logo mobile">
             <img src="./assets/images/logo_kelas_png.png" alt="" />
             <h1>XII TJKT 3</h1>
           </div>
