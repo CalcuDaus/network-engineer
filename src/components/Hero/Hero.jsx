@@ -4,6 +4,7 @@ import './Hero.css'
 const Hero = () => {
   return (
    <section className='hero-background'>
+    <img src="./assets/images/tkj3-pinned.webp" alt="" width="100%" />
    </section>
   )
 }
