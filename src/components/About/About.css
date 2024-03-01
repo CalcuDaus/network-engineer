@@ -1,0 +1,43 @@
+#about {
+    margin-top: 70px;
+}
+
+.container-about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-gambar{
+    width: 60%;
+}
+.about-gambar img{
+width: 100%;
+}
+
+.about-text{
+    width: 40%;
+}
+
+@media (max-width: 769px){
+    
+.container-about{
+    flex-direction: column;
+}
+.about-gambar{
+    width: 100%;
+}
+.about-text{
+    transform: translateY(-50px);
+    width: 100%;
+    text-align: justify;
+}
+}
+
+@media (max-width: 425px){
+    .about-text{
+    transform: translateY(-20px);
+        font-size: .75rem;
+    }
+
+}

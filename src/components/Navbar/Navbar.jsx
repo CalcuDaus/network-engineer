@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import MobileNav from "./MobileNav/MobileNav";
+import Card from "../Card/Card";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -20,12 +22,12 @@ const Navbar = () => {
           </div>
           <ul>
             <li>
-              <a href="" className="menu-item">
+              <a href="#" className="menu-item">
                 Home
               </a>
             </li>
             <li>
-              <a href="" className="menu-item">
+              <a href="#about" className="menu-item">
                 About
               </a>
             </li>
@@ -35,7 +37,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="" className="menu-item">
+            <a href="" className="menu-item">
                 Contact Us
               </a>
             </li>
@@ -54,7 +56,9 @@ const Navbar = () => {
           </button>
         </div>
       </nav>
+
     </>
+   
   );
 };
 
